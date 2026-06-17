@@ -1,0 +1,237 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.top-bar {
+    height: 100px;
+    width: auto;
+    display: flex;
+    align-items: center;
+    font-size: 80px;
+    justify-content: center;
+    background-color: #502419;
+    border: black 2px solid;
+    color: #F1FEC6;
+    gap: 80px;    
+}
+
+.pap {
+    position: relative;
+    right: 50px;
+}
+.gap{
+    margin-left: 155px;
+}
+
+.main-box {
+    height: 650px;
+    width: auto;
+    border: black 2px solid;
+    display: flex;
+    justify-content: space-between;
+}
+
+.left-side {
+    width: 300px;
+    height: auto;
+    border: black 2px solid;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-shrink: 0;
+    background-color: #7EA172;
+
+
+}
+
+
+.right-side {
+    width: 300px;
+    height: auto;
+    border: black 2px solid;
+     display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-shrink: 0;
+    background-color: #7EA172;
+
+
+
+}
+
+.box {
+    height: 180px;
+    width: 180px;
+     border: black 2px solid;
+     background-color: white;
+     background-size: cover;
+}
+
+.middle {
+    height: 650px;
+    width: auto;
+    border: black 2px solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    gap: 30px;
+    background-color: #EBBE9B;
+    flex-direction: column;
+    
+
+
+}
+
+.total-win {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100px;
+    width: 100%;
+    gap: 70px;
+    
+}
+
+.vss {
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    width: 100%;
+    
+    gap: 20px;
+
+
+}
+.ver{
+    font-size: 90px;
+    color: black;
+}
+
+.rock {
+    background-image: url("rock.png");
+    background-size: cover;
+}
+
+.paper {
+    background-image: url(paper.png);
+    background-size: cover;
+}
+
+
+.scissor {
+    background-image: url(scissor.png);
+    background-size: cover;
+}
+
+
+.c1 {
+    background-image: url("rock.png");
+    background-size: cover;
+}
+
+.c2 {
+    background-image: url(paper.png);
+    background-size: cover;
+}
+
+.c3 {
+    background-image: url(scissor.png);
+    background-size: cover;
+}
+
+.cap {
+    display: none;
+}
+
+.winner {
+    height: 100px;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 6px;
+    position: relative;
+    top: 260px;
+}
+
+.new-game {
+    height: 30px;
+    width: 130px;
+    display: flex;
+    background-color: black;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+}
+
+.hide {
+    display: none;
+}
+
+
+
+.lose {
+    height: 100px;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 6px;
+    position: relative;
+    top: 260px;
+
+}
+
+.l-game {
+    height: 30px;
+    width: 130px;
+    display: flex;
+    background-color: black;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+}
+
+.not {
+    display: none;
+}
+
+.same {
+    height: 100px;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 6px;
+    position: relative;
+    top: 260px;
+
+}
+
+.re-game {
+     height: 30px;
+    width: 130px;
+    display: flex;
+    background-color: black;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;   
+}
+
+.un {
+    display: none;
+}
+
+
+

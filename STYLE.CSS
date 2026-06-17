@@ -1,0 +1,133 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+background-color: #001011;
+align-content: center;
+text-align: center;
+
+
+
+}
+
+.main {
+    height: 70vh;
+    width: auto;
+    display: flex;
+    border: 2px solid black;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.game-box {
+    height: 480px;
+    width: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.boxes {
+    width: 155px;
+    height: 155px;
+    background-color: beige;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 90px;
+    color: black;
+}
+
+.resat {
+    height: 35px;
+    width: 130px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 700px;
+    margin-top: 50px;
+    border-radius: 10px;
+   
+}
+
+.winner {
+    display: flex;
+    height: 100vh;
+    width: auto;
+    flex-direction: column;
+    align-self: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.newgame {
+    height: 35px;
+    width: 130px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+    border-radius: 10px;
+    border: none;
+   
+
+}
+
+.h1 {
+    font-size: 40px;
+}
+
+.hide {
+    display: none;
+}
+
+button {
+    cursor: pointer;
+    border: none;
+}
+
+.draw {
+    display: flex;
+    height: 100vh;
+    width: auto;
+    flex-direction: column;
+    align-self: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.h2 {
+    font-size: 40px;
+}
+
+.draw-b {
+    height: 35px;
+    width: 130px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+    border-radius: 10px;
+    border: none;
+}
+
+.fide {
+    display: none;
+}
+
+.who{ 
+    font-size: 35px;
+}
